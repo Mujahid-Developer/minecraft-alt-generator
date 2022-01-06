@@ -3,11 +3,15 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url("https://i.ibb.co/zPKtKxp/background.jpg");
+  height: 100vh;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #generate-field {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .account-history {
   margin-top: 20px;
