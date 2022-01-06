@@ -2,7 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("/assets/background.jpg");
+  background-image: url("./assets/background.jpg");
   background-position: center;
 }
 #generate-field {
