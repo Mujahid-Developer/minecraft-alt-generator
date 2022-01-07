@@ -82,6 +82,9 @@ input {
   .services-items {
     flex: 0 0 40%;
   }
+  .support-container {
+    height: auto;
+. }
 }
 @media (max-width: 767px) {
   .services-items {
