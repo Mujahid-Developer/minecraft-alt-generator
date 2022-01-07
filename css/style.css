@@ -71,6 +71,7 @@ input {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.25);
   flex: 0 0 30%;
+  transition: all 400ms ease-in-out;
 }
 .support-container {
   height: 100vh;
@@ -78,6 +79,24 @@ input {
 .services-items:hover {
   background-color: rgba(0, 0, 0, 0.671);
 }
+.about-us {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: all 400ms ease-in-out;
+}
+.about-us:hover {
+  background-color: rgba(0, 0, 0, 0.671);
+}
+.about-tittle {
+  background-color: rgba(0, 0, 0, 0.671);
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Device Responsive*/
 @media (max-width: 1199px) {
   .services-items {
     flex: 0 0 40%;
