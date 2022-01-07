@@ -75,7 +75,9 @@ input {
 .support-container {
   height: 100vh;
 }
-
+.services-items:hover {
+  background-color: rgba(0, 0, 0, 0.671);
+}
 @media (max-width: 1199px) {
   .services-items {
     flex: 0 0 40%;
